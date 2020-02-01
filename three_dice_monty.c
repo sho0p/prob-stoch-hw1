@@ -1,8 +1,19 @@
+/*************************************************************
+ *              Written by Zachary Shoop                     *
+ *  For Probability and Stochastic Processes                 *
+ *  Homework 1 Problem 3                                     *
+ *                                                           *
+ *  Purpose is to simulate the rolling of three dice rolls   *
+ *  for a supplied number of trials and calculate the        *
+ *  frequency of each dice occurance, in particular the      *
+ *  frequency of dice outcomes 9 and 10.                     *
+ *************************************************************/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
-
+       
 int roll_the_dice()
 {
     int dice_rolls = 0;
